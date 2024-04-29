@@ -34,7 +34,7 @@ screen_height = root.winfo_screenheight()
 
 root.attributes("-fullscreen", True)
 
-result_label = tk.Label(root, text="")
+result_label = tk.Label(root, text="Result")
 result_label.pack()
 
 test_button = tk.Button(root, text="Internet Speed Test", command=get_speed)
